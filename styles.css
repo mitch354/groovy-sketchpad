@@ -1,0 +1,74 @@
+h1 {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 45px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+}
+
+#container {
+  display: block;
+  padding: 0;
+  width: 550px;
+  height: 550px;
+  margin-left: auto;
+  border: black solid 1px;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.square{
+  width: 34.375px;
+  height: 34.375px;
+  display: inline-block;
+}
+
+.list-container{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+p {
+    font-family: 'Orbitron', sans-serif;
+    margin:auto;
+    margin-top: auto;
+    display:inline;
+    vertical-align: middle;
+}
+ul {
+  list-style-type: circle;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+
+#button{
+  border-radius: 3px;
+  width:75px;
+  height:20px;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#button2{
+  border-radius: 3px;
+  width:75px;
+  height:20px;
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
