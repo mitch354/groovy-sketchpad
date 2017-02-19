@@ -11,11 +11,11 @@ h2 {
 }
 
 #container {
-  display: block;
+  display: inline-block;
   padding: 0;
   width: 550px;
   height: 550px;
-  margin-left: auto;
+  margin-left: 30px;
   border: black solid 1px;
   margin-right: auto;
 }
@@ -35,6 +35,9 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+  display: inline-block;
+  float: left;
+  margin-top: 350px;
 }
 
 p {

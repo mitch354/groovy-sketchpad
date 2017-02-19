@@ -19,10 +19,10 @@ $(document).ready(function() {
     });
   });
   $(document).on('click', '#button2', function(){
-    var doc = new jsPDF();
+    var doc = jsPDF();
     doc.addHTML($('#container')[0], 15, 15, {
       'background': '#fff',
-    }, function() {
+    },function() {
       doc.save('sample-file.pdf');
     });
   });
